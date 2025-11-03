@@ -95,3 +95,4 @@ E:\Documents\Programacion Software\Diseño WEB\WEB.NET_II\practicas\PruebaNet9\P
 E:\Documents\Programacion Software\Diseño WEB\WEB.NET_II\practicas\PruebaNet9\PruebasNet\src\ProyectoPrueba\obj\Debug\net9.0\ProyectoPrueba.pdb
 E:\Documents\Programacion Software\Diseño WEB\WEB.NET_II\practicas\PruebaNet9\PruebasNet\src\ProyectoPrueba\obj\Debug\net9.0\ProyectoPrueba.genruntimeconfig.cache
 E:\Documents\Programacion Software\Diseño WEB\WEB.NET_II\practicas\PruebaNet9\PruebasNet\src\ProyectoPrueba\obj\Debug\net9.0\ref\ProyectoPrueba.dll
+E:\Documents\Programacion Software\Diseño WEB\WEB.NET_II\practicas\PruebaNet9\PruebasNet\src\ProyectoPrueba\obj\Debug\net9.0\ProyectoPrueba.sourcelink.json
