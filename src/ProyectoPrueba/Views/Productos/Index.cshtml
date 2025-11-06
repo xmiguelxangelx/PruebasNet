@@ -1,5 +1,27 @@
+@model List<Producto>
 @{
     ViewData["Title"] = "Productos";
 }
-<h1>@ViewData["Titulo"]</h1>
-<p>Aquí se mostrará la lista de productos.</p>
+<h1>Productos</h1>
+
+<a asp-action="Create" class="btn btn-primary">Nuevo</a>
+
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Id</th><th>Nombre</th><th>Precio</th><th>Stock</th><th>Fecha</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Id</td>
+            <td>@p.Nombre</td>
+            <td>@p.Precio.ToString("C0")</td>
+            <td>@p.Stock</td>
+            <td>@p.FechaRegistro.ToString("yyyy-MM-dd")</td>
+        </tr>
+    }
+    </tbody>
+</table>

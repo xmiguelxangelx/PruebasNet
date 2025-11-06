@@ -1,5 +1,27 @@
+@model List<Proveedor>
 @{
     ViewData["Title"] = "Proveedores";
 }
-<h1>@ViewData["Titulo"]</h1>
-<p>Aquí se mostrará la lista de proveedores.</p>
+<h1>Proveedores</h1>
+
+<a asp-action="Create" class="btn btn-primary">Nuevo</a>
+
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <th>Id</th><th>Razón Social</th><th>Email</th><th>Teléfono</th><th>Fecha</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Id</td>
+            <td>@p.RazonSocial</td>
+            <td>@p.Email</td>
+            <td>@p.Telefono</td>
+            <td>@p.FechaRegistro.ToString("yyyy-MM-dd")</td>
+        </tr>
+    }
+    </tbody>
+</table>
